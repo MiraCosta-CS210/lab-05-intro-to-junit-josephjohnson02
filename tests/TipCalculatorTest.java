@@ -6,6 +6,7 @@ public class TipCalculatorTest {
     void calculateTipTest1() {
         TipCalculator tipTest1 = new TipCalculator();
         double tipAnswer = tipTest1.calculateTip(100, 20);
+
         assertEquals(20, tipAnswer);
     }
 
